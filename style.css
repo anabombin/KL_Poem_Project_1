@@ -1,0 +1,120 @@
+* {
+    bor der: 1px solid purple;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+body {
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin-bottom: 0px;
+}
+
+.content1 {
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.content4 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.content7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.lbd {
+    float: right;
+    width: 75%;
+    z-index:1;
+    margin-right: 5%;
+}
+
+.lbd2 {
+    float: left;
+    width: 75%;
+    z-index:1;
+    margin-left: 5%;
+}
+
+.lbd3 {
+    height: 90vh;
+    margin-left: 10%;
+    padding-top:5px;
+}
+
+.quote1 {
+    position: absolute;
+    padding-top: 20vh;
+    padding-left: 8%;
+    z-index:2;
+}
+
+.quote2 {
+    position: absolute;
+    float: right;
+    padding-top: 50vh;
+    padding-left: 63%;
+    z-index:2;
+}
+
+.quote3 {
+    padding-top: 20vh;
+    padding-right: 15%;
+}
+
+.gif-karl{
+    width:30%;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+    width: 100%;
+    
+}
+
+footer h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+h2 {
+    font-size: 25pt;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: maroon;
+}
+
+
